@@ -15,5 +15,5 @@ jobs:
       - run: pip install modal
       - run: modal deploy modal_app.py
         env:
-          MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
-          MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+          MODAL_TOKEN_ID: ${{ secrets.MODALTOKENID }}
+          MODAL_TOKEN_SECRET: ${{ secrets.MODALTOKENSECRET }}
